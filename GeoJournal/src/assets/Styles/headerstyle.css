@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=PT+Sans+Narrow:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Outfit:wght@100..900&family=PT+Sans+Narrow:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Comfortaa:wght@300..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Outfit:wght@100..900&family=PT+Sans+Narrow:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  margin-top: 100px; /* Adjust this value based on the actual height of your header */
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 20px;
+  border: 1.5px solid #e4dcdc;
+  position: fixed;
+  top: 0;
+  width: 96.9%;
+  background-color: white;
+  z-index: 1000;
+}
+
+.logo img {
+  height: 80px;
+  width: 60px;
+}
+
+.logoname-container {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.logoname {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  color: #2B1424;
+  font-weight: 800;
+  cursor: pointer;
+  
+}
+
+.line, .logoname2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 10px; 
+}
+
+.logoname2:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: #000000; 
+}
+
+.nav-items {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+}
+
+.article, .document, .products {
+  cursor: pointer;
+  font-size: 18px;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-weight: 1000%;
+  margin-bottom: px;
+  text-decoration: none; /* Add underline to text */
+  text-decoration-color: #FFCC00; /* Set underline color */
+  
+}
+
+.article:hover, .document:hover, .products:hover {
+  text-decoration: underline;
+  text-decoration-color: #9c7d27;
+}
+.article{
+  padding-top: 2.0px;
+
+}
+.nav-items span{
+  margin-top: 17px;
+  cursor: pointer;
+}

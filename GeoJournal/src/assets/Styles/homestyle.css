@@ -1,0 +1,137 @@
+/* Importing fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Comfortaa:wght@300..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Outfit:wght@100..900&family=PT+Sans+Narrow:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/voyage');
+/* Header for the latest stories section */
+.Home-wrap{
+padding:1rem;
+}
+
+
+.lateststories p{
+
+  padding: 0.px;
+  padding-bottom: 5rem;
+ font-family: 'Voyage', sans-serif;
+  font-weight: 300;
+  font-size: 45px;
+  text-align: center; /* Centering the title */
+  margin-bottom: 1.5rem;
+  color: #585a57;
+  
+  
+}
+.todaystories p {
+  padding: 0.px;
+  padding-bottom: 5rem;
+ font-family: 'Voyage', sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  text-align: center; /* Centering the title */
+  margin-bottom: 1.5rem;
+  color: #585a57;
+  
+}
+
+.latestcontainer {
+  margin-bottom: 7rem;
+  display: flex;
+  overflow-x: auto;
+  padding: 0.5rem;
+  gap: 2rem; /* Space between the items */
+  scroll-behavior: smooth; /* Smooth scrolling */
+  -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
+}
+
+/* Styling each product block for latest stories */
+.lsp {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  width: 320px; /* Ensuring consistent width for each item */
+  flex: 0 0 auto; /* Prevent items from shrinking */
+  background-color: #f4f4f4; /* Light background color */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  overflow: hidden; /* Clip overflowing content */
+  text-align: center; /* Center content inside */
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out; /* Smooth transition for transform */
+}
+
+.lsp img {
+  width: 300px;
+  height: 450px; /* Fixed height for images */
+  object-fit: cover; /* Cover the container without distortion */
+  transition: transform 0.3s ease-in-out; /* Smooth transition for transform */
+}
+
+.lsp:hover img {
+  transform: translatey(-5px); 
+}
+
+.ls-details {
+  padding: 1rem; 
+}
+
+.ls-details h2,
+.ls-details h4 {
+  margin: 0.5rem 0; 
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 450;
+  font-size: 20px;
+
+}
+
+.ls-details p {
+  font-size: 0.9rem; 
+  color: #555; 
+}
+
+
+.todaycontainer {
+  display: flex;
+  overflow-x: auto;
+  padding: 1rem;
+  gap: 1rem;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Styling each product block for today's stories */
+.tp {
+  width: 320px; /* Ensuring consistent width for each item */
+  flex: 0 0 auto; /* Prevent items from shrinking */
+  background-color: #f4f4f4; /* Light background color */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  overflow: hidden; /* Clip overflowing content */
+  text-align: center; /* Center content inside */
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out; /* Smooth transition for transform */
+}
+
+.tp img {
+  width: 320px;
+  height: 450px; /* Fixed height for images */
+  object-fit: cover; /* Cover the container without distortion */
+  transition: transform 0.3s ease-in-out; /* Smooth transition for transform */
+}
+
+.tp:hover img {
+  transform: translateY(-10px); /* Move the image back by 10px on hover */
+}
+
+.tp-details {
+  padding: 1rem; /* Padding inside the details section */
+}
+
+.tp-details h2,
+.tp-details h4 {
+  margin: 0.5rem 0; /* Space between text elements */
+}
+
+.tp-details p {
+  font-size: 0.9rem; /* Smaller font size for descriptions */
+  color: #555; /* Slightly muted color */
+}
